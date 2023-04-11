@@ -1,0 +1,51 @@
+:root {
+  --slidev-code-font-size: 1.5rem;
+  --slidev-code-line-height: calc(1.5rem * 1.5);
+}
+
+.slidev-layout h1 + :is(ul, ol) {
+  @apply mt-4;
+}
+
+.slidev-layout ol {
+  display: grid;
+  counter-reset: item;
+  li {
+    &::before {
+      color: var(--slidev-theme-accents-rose);
+      content: counter(item);
+      counter-increment: item;
+      @apply mr-2;
+    }
+    display: flex;
+  }
+}
+
+.slidev-layout.center h1 + h2 {
+  @apply mt-6;
+}
+
+.slidev-layout :not(h1) + h2 {
+  @apply mt-8;
+}
+
+.slidev-layout pre.slidev-code.has-starbeam-lines code {
+  display: grid;
+
+  > span {
+    @apply pl-1;
+    height: var(--slidev-code-line-height);
+  }
+
+  span.react {
+    position: relative;
+    background-color: oklch(
+      80% var(--sb-header-chroma) var(--sb-hue-neutral) / 20%
+    );
+    @apply bg-no-repeat;
+    background-image: url("../public/react.svg");
+    /* background-repeat: no-repeat;*/
+    background-position: top 0.4em left 0.3em;
+    background-size: 0.8em;
+  }
+}

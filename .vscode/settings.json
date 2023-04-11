@@ -1,3 +1,7 @@
 {
-  "postcss.validate": false
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "slidev.annotations": true,
+  "cssVariables.lookupFiles": ["theme/styles/**/*.css"]
 }
