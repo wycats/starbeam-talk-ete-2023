@@ -4,12 +4,6 @@ dependencies:
   '@slidev/cli':
     specifier: ^0.40.6
     version: 0.40.6(postcss@8.4.21)
-  '@slidev/theme-default':
-    specifier: ^0.21.2
-    version: 0.21.2
-  '@slidev/theme-seriph':
-    specifier: ^0.21.3
-    version: 0.21.3
   slidev-theme-the-unnamed:
     specifier: ^0.0.10
     version: 0.0.10
@@ -885,31 +879,6 @@ packages:
     dependencies:
       '@slidev/types': 0.40.6
       js-yaml: 4.1.0
-    dev: false
-
-  /@slidev/theme-default@0.21.2:
-    resolution: {integrity: sha512-neUucFs2YrRZZd73QwvLTyRG/o1nerDFUR5t8YAmXVLTMzWfY71flQ6aAhjYf+WjsozYsOHcxi/pZtIzZ4VhTQ==}
-    engines: {node: '>=14.0.0', slidev: '>=0.19.2'}
-    dependencies:
-      '@slidev/types': 0.22.7
-      codemirror-theme-vars: 0.1.2
-      prism-theme-vars: 0.2.4
-      theme-vitesse: 0.1.14
-    dev: false
-
-  /@slidev/theme-seriph@0.21.3:
-    resolution: {integrity: sha512-cLya6O4hmcLHUhloCMPPoKMLX27Q+8M8pRS82BSsLXVeXTXrlpc3l3glx5VB738p+NQr7FgqFN6H2CXQRoVv9Q==}
-    engines: {node: '>=14.0.0', slidev: '>=0.19.3'}
-    dependencies:
-      '@slidev/types': 0.22.7
-      codemirror-theme-vars: 0.1.2
-      prism-theme-vars: 0.2.4
-      theme-vitesse: 0.1.14
-    dev: false
-
-  /@slidev/types@0.22.7:
-    resolution: {integrity: sha512-mCVKQbcGTv6d6n9aHpYNp5U04HF+FMbpY083vqpJ6Folc805BB1Am02eubaW0J6nM+dSOu2dDgPY+kIjs75sAQ==}
-    engines: {node: '>=14.0.0'}
     dev: false
 
   /@slidev/types@0.39.0:
@@ -3528,11 +3497,6 @@ packages:
       yallist: 4.0.0
     dev: false
     optional: true
-
-  /theme-vitesse@0.1.14:
-    resolution: {integrity: sha512-b5s+Zpfaw5+djoCJ9AEbcTbpiTlLsOvGM9oblDmmWRGWNqg9oXtEYO/uwubwx77novHBI6zNuwZRHKNlAIBo4A==}
-    engines: {vscode: ^1.43.0}
-    dev: false
 
   /theme-vitesse@0.6.4:
     resolution: {integrity: sha512-uCn8emUUfEOKoukSZz0GqxB5q+gQ2wVEXx6+cCKWbXIjW56afkozVdosVSqXkRuML7i77tMmzMbvzcY/2uc01w==}

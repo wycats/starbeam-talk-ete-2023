@@ -9,5 +9,9 @@
   "dependencies": {
     "@slidev/cli": "^0.40.6",
     "slidev-theme-the-unnamed": "^0.0.10"
+  },
+  "volta": {
+    "node": "18.16.0",
+    "pnpm": "8.3.0"
   }
 }
